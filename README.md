@@ -1,5 +1,5 @@
 # Textured Mesh Saliency: Bridging Geometry and Texture for Human Perception in 3D Graphics (AAAI 2025)
-This is the source code for the paper "[Textured Mesh Saliency: Bridging Geometry and Texture for Human Perception in 3D Graphics](https://drive.google.com/drive/folders/1t1Yf0hRAFRyH7HCIDACmnNftQDo09qP_?usp=sharing)".
+This is the source code for the paper "[Textured Mesh Saliency: Bridging Geometry and Texture for Human Perception in 3D Graphics](https://arxiv.org/abs/2412.08188)".
 
 [Kaiwei Zhang](https://github.com/kaviezhang), [Dandan Zhu](), [Xiongkuo Min](https://scholar.google.com/citations?user=91sjuWIAAAAJ&hl=en&oi=ao), and [Guangtao Zhai](https://scholar.google.com/citations?user=E6zbSYgAAAAJ&hl=en&oi=ao)
 
