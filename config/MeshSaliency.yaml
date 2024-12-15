@@ -1,0 +1,44 @@
+cuda_devices: '1'
+
+# Network hyper-parameters
+batch_size: 4
+max_epoch: 150
+lr: 0.001
+seed: 0
+momentum: 0.9
+weight_decay: 0.0005
+optimizer: 'adamw' # sgd/adamw/adam
+scheduler: 'cos' # step/cos/multistep
+milestones: [30, 60, 90]
+gamma: 0.1
+retrieval_on: true   # enable evaluating retrieval performance during training
+save_steps: 50
+
+# Model configuration
+curve_descriptor:
+  num_kernel: 64
+
+structural_descriptor:
+  num_kernel: 64
+  sigma: 0.2
+mesh_convolution:
+  aggregation_method: 'Aggregation'  # Concat/Max/Average/Aggregation/
+num_kernel: 8
+ConvSurface:
+  num_samples_per_neighbor: 4
+  rs_mode: 'Weighted' # Uniform/Weighted
+  num_kernel: 16
+MeshBlock:
+  blocks: [3, 4, 4]
+pool_rate: 2
+
+# dataset
+dataset:
+  data_root: '/home/kaiwei/Dataset/ColorMesh'
+  max_faces: 32868
+  augment_data: true
+  jitter_sigma: 0.001
+  jitter_clip: 0.001
+
+# result
+ckpt_root: 'ckpt_root'
