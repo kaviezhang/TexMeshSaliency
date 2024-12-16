@@ -9,6 +9,8 @@ This is the source code for the paper "[Textured Mesh Saliency: Bridging Geometr
 <hr />
 
 ### Data preparation
+[Dataset](https://drive.google.com/drive/folders/1OmlFCNfdwPYOG0KpoFgSpPAn2ICR5Tgd?usp=sharing)
+Then run get_neighbor_ringn.py to prepare the data.
 
 ### Citation
 If you use TexturedMeshSaliency, please consider citing:
