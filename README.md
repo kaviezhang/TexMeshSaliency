@@ -15,6 +15,10 @@ Then run get_neighbor_ringn.py to prepare the data.
 ### Citation
 If you use TexturedMeshSaliency, please consider citing:
 ```
-@inproceedings{
+@article{zhang2024textured,
+  title={Textured Mesh Saliency: Bridging Geometry and Texture for Human Perception in 3D Graphics},
+  author={Zhang, Kaiwei and Zhu, Dandan and Min, Xiongkuo and Zhai, Guangtao},
+  journal={arXiv preprint arXiv:2412.08188},
+  year={2024}
 }
 ```
